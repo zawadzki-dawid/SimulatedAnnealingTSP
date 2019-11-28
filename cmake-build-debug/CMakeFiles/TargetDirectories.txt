@@ -1,0 +1,3 @@
+/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles/SimAnnealing.dir
+/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles/edit_cache.dir

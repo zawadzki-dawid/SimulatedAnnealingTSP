@@ -1,0 +1,9 @@
+data10 	data10:   212
+data11 	data11:   202
+data12  data12:   264
+data13  data13:   269
+data14  data14:   125
+data15  data15:   291
+data16  data16:   156
+data17  data17:   183
+data18  data18:   187
