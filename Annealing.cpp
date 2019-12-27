@@ -21,7 +21,6 @@ bool Annealing::accept(int min, int minC, double temp) {
     if (minC <= min) {
         if(minC < _min)
             _min = minC;
-
             return true;
     } else {
         double prob = exp((min - minC) / temp);
@@ -38,9 +37,7 @@ void Annealing::invert(vector<int> & path, int start, int end) {
     int level = 0;
     for (int i = start; i <= end - level; i++) {
         swap(path[i], path[end - level]);
-
         level++;
-
     }
 }
 
@@ -57,45 +54,28 @@ int Annealing::countSetCost(vector<int> & path, int start, int end) const {
 
 void Annealing::annealingInvert(vector<int> path, double cooling, double endTemp, double temp, int step){
     srand(time(NULL));
-
     vector<int> pathC(path);
-
     int min = matrix.pathValue(path);
-
     int minC;
-
     int start;
-
     int end;
-
     int stepLength =  matrix.getMatrixSize()*matrix.getMatrixSize();
-
     int noChangeCounter;
-
     while(temp > endTemp) {
         noChangeCounter = 0;
         for (int i = 0; i < stepLength; i++) {
             start = rand() % (matrix.getMatrixSize() - 2) + 1;
-
             end = rand() % (matrix.getMatrixSize() - start - 1) + start + 1;
-
             invert(pathC, start, end);
-
             minC = matrix.pathValue(path);
-
             if (accept(min, minC, temp)) {
                 min = minC;
-
                 path = pathC;
-
             }else{
                 pathC = path;
-
                 noChangeCounter++;
-
             }
         }
-
         temp *= cooling;
         if(noChangeCounter == stepLength) {
             break;
@@ -103,7 +83,7 @@ void Annealing::annealingInvert(vector<int> path, double cooling, double endTemp
     }
 }
 
-void Annealing::annealingAcc(vector<int> path,double cooling, double endTemp, double temp, int step){
+void Annealing::annealingAcc(vector<int> path,double cooling, double endTemp, double temp, int step, int reduce){
     srand(time(NULL));
 
     vector<int> pathC(path);
@@ -117,57 +97,6 @@ void Annealing::annealingAcc(vector<int> path,double cooling, double endTemp, do
     int end;
 
     int noChangeCounter;
-
-    while(temp > endTemp) {
-        for (int i = 0; i < step; i++) {
-            start = rand() % (matrix.getMatrixSize() - 2) + 1;
-
-            end = rand() % (matrix.getMatrixSize() - start - 1) + start + 1;
-
-            if(end < (matrix.getMatrixSize()-1))
-                minC -= (matrix[pathC[start - 1]][pathC[start]] + matrix[pathC[end]][pathC[end + 1]]);
-            else
-                minC -= (matrix[pathC[start - 1]][pathC[start]] + matrix[pathC[end]][0]);
-
-            invert(pathC, start, end);
-
-            if(end < (matrix.getMatrixSize()-1))
-                minC += (matrix[pathC[start - 1]][pathC[start]] + matrix[pathC[end]][pathC[end + 1]]);
-            else
-                minC += (matrix[pathC[start - 1]][pathC[start]] + matrix[pathC[end]][0]);
-
-            if (accept(min, minC, temp)) {
-                min = minC;
-
-                path = pathC;
-
-            }else{
-                pathC = path;
-
-                minC = min;
-            }
-        }
-
-        temp *= cooling;
-
-    }
-}
-
-void Annealing::annealingAccAsym(vector<int> path,double cooling, double endTemp, double temp, int step, int reduce){
-    srand(time(NULL));
-
-    vector<int> pathC(path);
-
-    int min = matrix.pathValue(path);
-
-    int minC = min;
-
-    int start;
-
-    int end;
-
-    int noChangeCounter;
-
     int changeCounter;
 
     while(temp > endTemp) {
@@ -178,36 +107,78 @@ void Annealing::annealingAccAsym(vector<int> path,double cooling, double endTemp
 
             end = rand() % (matrix.getMatrixSize() - start - 1) + start + 1;
 
-            minC -= countSetCost(pathC, start, end);
+          /*  if(end < (matrix.getMatrixSize()-1))
+                minC -= (matrix[pathC[start - 1]][pathC[start]] + matrix[pathC[end]][pathC[end + 1]]);
+            else
+                minC -= (matrix[pathC[start - 1]][pathC[start]] + matrix[pathC[end]][0]);*/
 
             invert(pathC, start, end);
 
-            minC += countSetCost(pathC, start, end);
+            minC = matrix.pathValue(pathC);
+
+            /*if(end < (matrix.getMatrixSize()-1))
+                minC += (matrix[pathC[start - 1]][pathC[start]] + matrix[pathC[end]][pathC[end + 1]]);
+            else
+                minC += (matrix[pathC[start - 1]][pathC[start]] + matrix[pathC[end]][0]);*/
 
             if (accept(min, minC, temp)) {
                 min = minC;
 
                 path = pathC;
-
                 noChangeCounter = 0;
-
                 changeCounter++;
-
             }else{
                 pathC = path;
 
                 minC = min;
 
                 noChangeCounter++;
-
                 changeCounter = 0;
-
             }
             if(changeCounter == reduce)
                 break;
         }
         if(noChangeCounter == step)
             break;
+        temp *= cooling;
+
+    }
+}
+
+void Annealing::annealingAccAsym(vector<int> path, double cooling, double endTemp, double temp, int step, int reduce){
+    srand(time(NULL));
+    vector<int> pathC(path);
+    int min = matrix.pathValue(path);
+    int minC = min;
+    int start;
+    int end;
+    int noChangeCounter;
+    int changeCounter;
+    while(temp > endTemp) {
+        noChangeCounter = 0;
+        changeCounter = 0;
+        for (int i = 0; i < step; i++) {
+            start = rand() % (matrix.getMatrixSize() - 2) + 1;
+            end = rand() % (matrix.getMatrixSize() - start - 1) + start + 1;
+            minC -= countSetCost(pathC, start, end);
+            invert(pathC, start, end);
+            minC += countSetCost(pathC, start, end);
+            if (accept(min, minC, temp)) {
+                min = minC;
+                path = pathC;
+                noChangeCounter = 0;
+                changeCounter++;
+            }else{
+                pathC = path;
+                minC = min;
+                  noChangeCounter++;
+                  changeCounter = 0;
+            }
+            if(changeCounter == reduce)
+                break;
+        }
+        if(noChangeCounter == step)
+          break;
         temp *= cooling;
 
     }

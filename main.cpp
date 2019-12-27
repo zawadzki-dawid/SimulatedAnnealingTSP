@@ -1,49 +1,21 @@
 #include <iostream>
-#include "Matrix.h"
-#include "Annealing.h"
-#include <chrono>
-#include <algorithm>
+#include "AutomaticTests.h"
+#include <string>
+
+using namespace std;
 
 int main() {
 
-    srand(time(NULL));
+    vector<string> symList={"data10.txt", "data11.txt", "data12.txt", "data13.txt", "data14.txt", "data15.txt", "data16.txt", "data18.txt", "data21.txt", "data24.txt", "data26.txt", "data29.txt", "data42.txt", "data58.txt", "data120.txt"};
+    vector<string> asymList={"data323.txt", "data358.txt", "data403.txt", "data443.txt"};
+    vector<int> symValues={212, 202, 264, 269, 125, 291, 156, 187, 2707, 1272, 937, 1610, 699, 25395, 6942};
+    vector<int> asymValues={ 1326, 1163, 2465, 2720};
 
-    unsigned seed = chrono::system_clock::now().time_since_epoch().count();
+    AutomaticTest symAnnealing;
 
-    Matrix matrix{"data58.txt"};
+    string filePath = "../DATA/SYM/";
 
-    vector<int> path;
-
-    double cooling = 0.9;
-
-    double temp = 10000000000.0;
-
-    double endTemp = 0.0001;
-
-    int step = matrix.getMatrixSize()*matrix.getMatrixSize();
-
-    int reduce = 10*matrix.getMatrixSize();
-
-    for(int i=0 ; i<matrix.getMatrixSize(); i++)
-        path.push_back(i);
-
-    shuffle(path.begin()+1, path.end(), default_random_engine(seed));
-
-    Annealing annealing{matrix};
-
-    std::chrono::time_point<std::chrono::system_clock> start, end;
-
-    start = std::chrono::system_clock::now();
-
-    annealing.annealingAccAsym(path, cooling, endTemp, temp, step, reduce);
-
-    end = std::chrono::system_clock::now();
-
-    std::chrono::duration<double> elapsed_seconds = end - start;
-
-    cout<< "elapsed time: " << elapsed_seconds.count() << "s\n";
-
-    cout<<annealing.min()<<endl;
+    symAnnealing.test(symList, symValues, filePath, "../DATA/RESULTS/sym_acc_sym_10_no_acc.txt", 10);
 
     return 0;
 }

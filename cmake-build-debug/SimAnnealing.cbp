@@ -90,6 +90,12 @@
 		<Unit filename="/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Annealing.h">
 			<Option target="SimAnnealing"/>
 		</Unit>
+		<Unit filename="/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/AutomaticTests.cpp">
+			<Option target="SimAnnealing"/>
+		</Unit>
+		<Unit filename="/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/AutomaticTests.h">
+			<Option target="SimAnnealing"/>
+		</Unit>
 		<Unit filename="/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Matrix.cpp">
 			<Option target="SimAnnealing"/>
 		</Unit>

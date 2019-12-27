@@ -1,0 +1,140 @@
+Poczatkowa temperatura: 1e+10
+Temperatura schladzania: 0.9
+Temperatura koncowa: 0.0001
+Ilosc poworzen kazdej proby: 10
+
+Nazwa pliku: br17.atsp
+Rozmiar problemu: 17
+Optymalny wynik: 39
+Sredni wynik: 39
+Srednia roznica procentowa: 0
+Najwiekszy wynik: 39
+Najwieksza roznica procentowa: 0
+Sredni czas: 0.0367574
+
+Nazwa pliku: ftv33.atsp
+Rozmiar problemu: 34
+Optymalny wynik: 1286
+Sredni wynik: 1591
+Srednia roznica procentowa: 23.717
+Najwiekszy wynik: 1651
+Najwieksza roznica procentowa: 28.3826
+Sredni czas: 0.119506
+
+Nazwa pliku: ftv35.atsp
+Rozmiar problemu: 36
+Optymalny wynik: 1473
+Sredni wynik: 1894
+Srednia roznica procentowa: 28.6083
+Najwiekszy wynik: 2222
+Najwieksza roznica procentowa: 50.8486
+Sredni czas: 0.108741
+
+Nazwa pliku: ftv38.atsp
+Rozmiar problemu: 39
+Optymalny wynik: 1530
+Sredni wynik: 1885
+Srednia roznica procentowa: 23.2288
+Najwiekszy wynik: 2096
+Najwieksza roznica procentowa: 36.9935
+Sredni czas: 0.149313
+
+Nazwa pliku: p43.atsp
+Rozmiar problemu: 43
+Optymalny wynik: 5620
+Sredni wynik: 5622
+Srednia roznica procentowa: 0.0355872
+Najwiekszy wynik: 5622
+Najwieksza roznica procentowa: 0.0355872
+Sredni czas: 0.332541
+
+Nazwa pliku: ftv44.atsp
+Rozmiar problemu: 45
+Optymalny wynik: 1613
+Sredni wynik: 2202
+Srednia roznica procentowa: 36.5654
+Najwiekszy wynik: 2393
+Najwieksza roznica procentowa: 48.3571
+Sredni czas: 0.235847
+
+Nazwa pliku: ry48p.atsp
+Rozmiar problemu: 48
+Optymalny wynik: 14422
+Sredni wynik: 14898
+Srednia roznica procentowa: 3.30329
+Najwiekszy wynik: 15164
+Najwieksza roznica procentowa: 5.14492
+Sredni czas: 0.196876
+
+Nazwa pliku: ft53.atsp
+Rozmiar problemu: 53
+Optymalny wynik: 6905
+Sredni wynik: 10270
+Srednia roznica procentowa: 48.7343
+Najwiekszy wynik: 10781
+Najwieksza roznica procentowa: 56.1332
+Sredni czas: 0.263456
+
+Nazwa pliku: ftv55.atsp
+Rozmiar problemu: 56
+Optymalny wynik: 1608
+Sredni wynik: 2405
+Srednia roznica procentowa: 49.5771
+Najwiekszy wynik: 2774
+Najwieksza roznica procentowa: 72.5124
+Sredni czas: 0.541653
+
+Nazwa pliku: ftv64.atsp
+Rozmiar problemu: 65
+Optymalny wynik: 1839
+Sredni wynik: 2941
+Srednia roznica procentowa: 59.9565
+Najwiekszy wynik: 2968
+Najwieksza roznica procentowa: 61.3921
+Sredni czas: 0.663473
+
+Nazwa pliku: ft70.atsp
+Rozmiar problemu: 70
+Optymalny wynik: 38673
+Sredni wynik: 46406
+Srednia roznica procentowa: 19.9979
+Najwiekszy wynik: 48264
+Najwieksza roznica procentowa: 24.8002
+Sredni czas: 0.494065
+
+Nazwa pliku: ftv70.atsp
+Rozmiar problemu: 71
+Optymalny wynik: 1950
+Sredni wynik: 3219
+Srednia roznica procentowa: 65.1231
+Najwiekszy wynik: 3503
+Najwieksza roznica procentowa: 79.641
+Sredni czas: 0.968894
+
+Nazwa pliku: kro124p.atsp
+Rozmiar problemu: 100
+Optymalny wynik: 36230
+Sredni wynik: 44714
+Srednia roznica procentowa: 23.4171
+Najwiekszy wynik: 46601
+Najwieksza roznica procentowa: 28.6254
+Sredni czas: 1.433
+
+Nazwa pliku: ftv170.atsp
+Rozmiar problemu: 171
+Optymalny wynik: 2755
+Sredni wynik: 7484
+Srednia roznica procentowa: 171.673
+Najwiekszy wynik: 7724
+Najwieksza roznica procentowa: 180.363
+Sredni czas: 12.0662
+
+Nazwa pliku: rbg323.atsp
+Rozmiar problemu: 323
+Optymalny wynik: 1326
+Sredni wynik: 3108
+Srednia roznica procentowa: 134.404
+Najwiekszy wynik: 3200
+Najwieksza roznica procentowa: 141.327
+Sredni czas: 74.6889
+

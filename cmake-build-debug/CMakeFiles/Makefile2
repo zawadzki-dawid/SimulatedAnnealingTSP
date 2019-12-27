@@ -35,10 +35,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/92/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/98/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/92/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/98/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/SimAnnealing.dir/all:
 	$(MAKE) -f CMakeFiles/SimAnnealing.dir/build.make CMakeFiles/SimAnnealing.dir/depend
 	$(MAKE) -f CMakeFiles/SimAnnealing.dir/build.make CMakeFiles/SimAnnealing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target SimAnnealing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target SimAnnealing"
 .PHONY : CMakeFiles/SimAnnealing.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SimAnnealing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SimAnnealing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/SimAnnealing.dir/rule

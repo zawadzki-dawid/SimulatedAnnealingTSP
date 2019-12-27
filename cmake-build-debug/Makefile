@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/92/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/98/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/92/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/98/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-bui
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/92/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/98/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/92/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/98/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -149,6 +149,33 @@ Annealing.s: Annealing.cpp.s
 Annealing.cpp.s:
 	$(MAKE) -f CMakeFiles/SimAnnealing.dir/build.make CMakeFiles/SimAnnealing.dir/Annealing.cpp.s
 .PHONY : Annealing.cpp.s
+
+AutomaticTests.o: AutomaticTests.cpp.o
+
+.PHONY : AutomaticTests.o
+
+# target to build an object file
+AutomaticTests.cpp.o:
+	$(MAKE) -f CMakeFiles/SimAnnealing.dir/build.make CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.o
+.PHONY : AutomaticTests.cpp.o
+
+AutomaticTests.i: AutomaticTests.cpp.i
+
+.PHONY : AutomaticTests.i
+
+# target to preprocess a source file
+AutomaticTests.cpp.i:
+	$(MAKE) -f CMakeFiles/SimAnnealing.dir/build.make CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.i
+.PHONY : AutomaticTests.cpp.i
+
+AutomaticTests.s: AutomaticTests.cpp.s
+
+.PHONY : AutomaticTests.s
+
+# target to generate assembly for a file
+AutomaticTests.cpp.s:
+	$(MAKE) -f CMakeFiles/SimAnnealing.dir/build.make CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.s
+.PHONY : AutomaticTests.cpp.s
 
 Matrix.o: Matrix.cpp.o
 
@@ -243,6 +270,9 @@ help:
 	@echo "... Annealing.o"
 	@echo "... Annealing.i"
 	@echo "... Annealing.s"
+	@echo "... AutomaticTests.o"
+	@echo "... AutomaticTests.i"
+	@echo "... AutomaticTests.s"
 	@echo "... Matrix.o"
 	@echo "... Matrix.i"
 	@echo "... Matrix.s"

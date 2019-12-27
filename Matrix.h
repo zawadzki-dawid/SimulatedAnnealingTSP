@@ -26,7 +26,7 @@ class Matrix{
 public:
     int* const &operator[] (int) const;
 
-    Matrix(string);
+    Matrix(string, string);
 
     ~Matrix();
 
@@ -35,8 +35,6 @@ public:
     int getMatrixSize() const;
 
     void printMatrix();
-
-    int pathValue(int*) const;
 
     int pathValue(vector<int>) const;
 

@@ -1,4 +1,4 @@
-/snap/clion/92/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dawid/CLionProjects/SimAnnealing/SimAnnealing
+/snap/clion/98/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dawid/CLionProjects/SimAnnealing/SimAnnealing
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug

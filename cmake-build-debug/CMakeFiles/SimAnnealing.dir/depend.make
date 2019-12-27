@@ -6,6 +6,12 @@ CMakeFiles/SimAnnealing.dir/Annealing.cpp.o: ../Annealing.h
 CMakeFiles/SimAnnealing.dir/Annealing.cpp.o: ../Matrix.h
 CMakeFiles/SimAnnealing.dir/Annealing.cpp.o: ../Solution.h
 
+CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.o: ../Annealing.h
+CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.o: ../AutomaticTests.cpp
+CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.o: ../AutomaticTests.h
+CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.o: ../Matrix.h
+CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.o: ../Solution.h
+
 CMakeFiles/SimAnnealing.dir/Matrix.cpp.o: ../Matrix.cpp
 CMakeFiles/SimAnnealing.dir/Matrix.cpp.o: ../Matrix.h
 
@@ -13,6 +19,7 @@ CMakeFiles/SimAnnealing.dir/Solution.cpp.o: ../Solution.cpp
 CMakeFiles/SimAnnealing.dir/Solution.cpp.o: ../Solution.h
 
 CMakeFiles/SimAnnealing.dir/main.cpp.o: ../Annealing.h
+CMakeFiles/SimAnnealing.dir/main.cpp.o: ../AutomaticTests.h
 CMakeFiles/SimAnnealing.dir/main.cpp.o: ../Matrix.h
 CMakeFiles/SimAnnealing.dir/main.cpp.o: ../Solution.h
 CMakeFiles/SimAnnealing.dir/main.cpp.o: ../main.cpp
