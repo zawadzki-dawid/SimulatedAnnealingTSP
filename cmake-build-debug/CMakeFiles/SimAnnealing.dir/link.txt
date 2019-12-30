@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/SimAnnealing.dir/main.cpp.o CMakeFiles/SimAnnealing.dir/Matrix.cpp.o CMakeFiles/SimAnnealing.dir/Annealing.cpp.o CMakeFiles/SimAnnealing.dir/Solution.cpp.o  -o SimAnnealing 
+/usr/bin/c++  -g   CMakeFiles/SimAnnealing.dir/main.cpp.o CMakeFiles/SimAnnealing.dir/Matrix.cpp.o CMakeFiles/SimAnnealing.dir/Annealing.cpp.o CMakeFiles/SimAnnealing.dir/Solution.cpp.o CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.o  -o SimAnnealing 

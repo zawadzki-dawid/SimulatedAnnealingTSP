@@ -22,6 +22,24 @@ cmath
 random
 -
 
+/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/AutomaticTests.cpp
+AutomaticTests.h
+/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/AutomaticTests.h
+
+/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/AutomaticTests.h
+string
+-
+vector
+-
+Matrix.h
+/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Matrix.h
+Annealing.h
+/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Annealing.h
+chrono
+-
+algorithm
+-
+
 /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Matrix.h
 vector
 -
@@ -45,12 +63,8 @@ climits
 /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/main.cpp
 iostream
 -
-Matrix.h
-/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Matrix.h
-Annealing.h
-/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Annealing.h
-chrono
--
-algorithm
+AutomaticTests.h
+/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/AutomaticTests.h
+string
 -
 

@@ -1,0 +1,140 @@
+Poczatkowa temperatura: 1e+10
+Temperatura schladzania: 0.9
+Temperatura koncowa: 0.0001
+Ilosc poworzen kazdej proby: 10
+
+Nazwa pliku: data10
+Rozmiar problemu: 10
+Optymalny wynik: 212
+Sredni wynik: 212
+Srednia roznica procentowa: 0
+Najwiekszy wynik: 212
+Najwieksza roznica procentowa: 0
+Sredni czas: 0.00772564
+
+Nazwa pliku: data11
+Rozmiar problemu: 11
+Optymalny wynik: 202
+Sredni wynik: -44830
+Srednia roznica procentowa: -22293.3
+Najwiekszy wynik: 0
+Najwieksza roznica procentowa: -100
+Sredni czas: 0.00799763
+
+Nazwa pliku: data12
+Rozmiar problemu: 12
+Optymalny wynik: 264
+Sredni wynik: 264
+Srednia roznica procentowa: 0
+Najwiekszy wynik: 264
+Najwieksza roznica procentowa: 0
+Sredni czas: 0.00786621
+
+Nazwa pliku: data13
+Rozmiar problemu: 13
+Optymalny wynik: 269
+Sredni wynik: 269
+Srednia roznica procentowa: 0
+Najwiekszy wynik: 269
+Najwieksza roznica procentowa: 0
+Sredni czas: 0.00947837
+
+Nazwa pliku: data14
+Rozmiar problemu: 14
+Optymalny wynik: 125
+Sredni wynik: -59887
+Srednia roznica procentowa: -48009.6
+Najwiekszy wynik: 0
+Najwieksza roznica procentowa: -100
+Sredni czas: 0.0105673
+
+Nazwa pliku: data15
+Rozmiar problemu: 15
+Optymalny wynik: 291
+Sredni wynik: 291
+Srednia roznica procentowa: 0
+Najwiekszy wynik: 291
+Najwieksza roznica procentowa: 0
+Sredni czas: 0.0119682
+
+Nazwa pliku: data16
+Rozmiar problemu: 16
+Optymalny wynik: 156
+Sredni wynik: -182217
+Srednia roznica procentowa: -116906
+Najwiekszy wynik: 0
+Najwieksza roznica procentowa: -100
+Sredni czas: 0.0199098
+
+Nazwa pliku: data18
+Rozmiar problemu: 18
+Optymalny wynik: 187
+Sredni wynik: -246190
+Srednia roznica procentowa: -131753
+Najwiekszy wynik: 0
+Najwieksza roznica procentowa: -100
+Sredni czas: 0.0245887
+
+Nazwa pliku: gr21.tsp
+Rozmiar problemu: 21
+Optymalny wynik: 2707
+Sredni wynik: 2707
+Srednia roznica procentowa: 0
+Najwiekszy wynik: 2707
+Najwieksza roznica procentowa: 0
+Sredni czas: 0.0198072
+
+Nazwa pliku: gr24.tsp
+Rozmiar problemu: 24
+Optymalny wynik: 1272
+Sredni wynik: 1272
+Srednia roznica procentowa: 0
+Najwiekszy wynik: 1272
+Najwieksza roznica procentowa: 0
+Sredni czas: 0.0274074
+
+Nazwa pliku: fri26.tsp
+Rozmiar problemu: 26
+Optymalny wynik: 937
+Sredni wynik: 937
+Srednia roznica procentowa: 0
+Najwiekszy wynik: 937
+Najwieksza roznica procentowa: 0
+Sredni czas: 0.0336699
+
+Nazwa pliku: bayg29.tsp
+Rozmiar problemu: 29
+Optymalny wynik: 1610
+Sredni wynik: 1611
+Srednia roznica procentowa: 0.0745342
+Najwiekszy wynik: 1622
+Najwieksza roznica procentowa: 0.745342
+Sredni czas: 0.0359967
+
+Nazwa pliku: dantzig42.tsp
+Rozmiar problemu: 42
+Optymalny wynik: 699
+Sredni wynik: 703
+Srednia roznica procentowa: 0.615165
+Najwiekszy wynik: 724
+Najwieksza roznica procentowa: 3.57654
+Sredni czas: 0.0812363
+
+Nazwa pliku: brazil58.tsp
+Rozmiar problemu: 58
+Optymalny wynik: 25395
+Sredni wynik: 25403
+Srednia roznica procentowa: 0.0315023
+Najwiekszy wynik: 25475
+Najwieksza roznica procentowa: 0.315023
+Sredni czas: 0.230392
+
+Nazwa pliku: gr120.tsp
+Rozmiar problemu: 120
+Optymalny wynik: 6942
+Sredni wynik: 7066
+Srednia roznica procentowa: 1.79919
+Najwiekszy wynik: 7176
+Najwieksza roznica procentowa: 3.37079
+Sredni czas: 1.05469
+

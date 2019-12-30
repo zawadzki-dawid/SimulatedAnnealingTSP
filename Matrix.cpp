@@ -13,10 +13,10 @@ Matrix::~Matrix() {
 
 // --------------Constructor-------------------------------------
 
-Matrix::Matrix(string fileName) {
+Matrix::Matrix(string fileName, string filePath) {
 
     ifstream file;
-    file.open("../PEA/SMALL/"+fileName, ios::out);
+    file.open(filePath+fileName, ios::out);
     file >> matrixName;
     file >> matrixSize;
     shortestPath = new int[matrixSize];
@@ -28,9 +28,10 @@ Matrix::Matrix(string fileName) {
             for (int j = 0; j < matrixSize; j++)
                 file >> matrix[i][j];
         }
+        file.close();
     }
     else{
-        cout<<"File cannot be open!"<<endl;
+        cout<<"File cannot be opened!"<<endl;
     }
 }
 
@@ -55,18 +56,6 @@ int Matrix::getMatrixSize() const {
 
 std::string Matrix::getName() {
     return matrixName;
-}
-
-// --------------Path Value-------------------------------------------
-
-int Matrix::pathValue(int* arr) const{
-
-    int min = 0;
-    for(int i=0;i<matrixSize-1;i++)
-        min+=matrix[arr[i]][arr[i+1]];
-    min+=matrix[arr[matrixSize-1]][0];
-    return min;
-
 }
 
 int Matrix::pathValue(vector<int> vec) const{

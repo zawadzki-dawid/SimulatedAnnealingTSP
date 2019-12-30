@@ -6,6 +6,12 @@ CMakeFiles/SimAnnealing.dir/Annealing.cpp.o
  /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Annealing.h
  /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Matrix.h
  /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Solution.h
+CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.o
+ /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Annealing.h
+ /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/AutomaticTests.cpp
+ /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/AutomaticTests.h
+ /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Matrix.h
+ /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Solution.h
 CMakeFiles/SimAnnealing.dir/Matrix.cpp.o
  /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Matrix.cpp
  /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Matrix.h
@@ -14,6 +20,7 @@ CMakeFiles/SimAnnealing.dir/Solution.cpp.o
  /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Solution.h
 CMakeFiles/SimAnnealing.dir/main.cpp.o
  /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Annealing.h
+ /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/AutomaticTests.h
  /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Matrix.h
  /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Solution.h
  /home/dawid/CLionProjects/SimAnnealing/SimAnnealing/main.cpp

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Annealing.cpp" "/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles/SimAnnealing.dir/Annealing.cpp.o"
+  "/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/AutomaticTests.cpp" "/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles/SimAnnealing.dir/AutomaticTests.cpp.o"
   "/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Matrix.cpp" "/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles/SimAnnealing.dir/Matrix.cpp.o"
   "/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/Solution.cpp" "/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles/SimAnnealing.dir/Solution.cpp.o"
   "/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/main.cpp" "/home/dawid/CLionProjects/SimAnnealing/SimAnnealing/cmake-build-debug/CMakeFiles/SimAnnealing.dir/main.cpp.o"

@@ -11,8 +11,83 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee2c64c0-295c-464d-8022-2b9e9c90a68e" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ee2c64c0-295c-464d-8022-2b9e9c90a68e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutomaticTests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutomaticTests.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annealing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Annealing.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annealing.h" beforeDir="false" afterPath="$PROJECT_DIR$/Annealing.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/.idea/PEA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/best.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data171.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data323.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data358.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data403.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data443.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/ATSP/ATSP/data71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/algorytmDynamiczny.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/bruteForce.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/data58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/SMALL/opt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/TSP/TSP/best.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/TSP/TSP/data17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEA/TSP/TSP/data21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/Annealing.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/Annealing.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/Matrix.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/Matrix.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimAnnealing.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SimAnnealing" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SimAnnealing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SimAnnealing.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SimAnnealing.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,21 +97,20 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1U7HTtNu6jcrvNdZNqDkVXZxBg0" />
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="ProjectId" id="1U7HTtNu6jcrvNdZNqDkVXZxBg0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/PROJEKT_3/qwell" />
   </component>
   <component name="RunManager">
     <configuration name="SimAnnealing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimAnnealing" TARGET_NAME="SimAnnealing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimAnnealing" RUN_TARGET_NAME="SimAnnealing">
@@ -44,6 +118,18 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,11 +146,70 @@
       <workItem from="1574888335846" duration="5849000" />
       <workItem from="1574968818867" duration="229000" />
       <workItem from="1574979351380" duration="35000" />
+      <workItem from="1575036532582" duration="238000" />
+      <workItem from="1575037360296" duration="1251000" />
+      <workItem from="1575197146570" duration="759000" />
+      <workItem from="1576530811346" duration="10436000" />
+      <workItem from="1576572206115" duration="661000" />
+      <workItem from="1576578119448" duration="661000" />
+      <workItem from="1576584886377" duration="645000" />
+      <workItem from="1576654432343" duration="4000" />
+      <workItem from="1576666248142" duration="2207000" />
+      <workItem from="1576693813001" duration="980000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1784" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576532178791">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1784" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1576532178791" />
+    <state width="1145" height="311" key="GridCell.Tab.0.bottom" timestamp="1576586182949">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1145" height="311" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1576586182949" />
+    <state width="1874" height="266" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1576538774585" />
+    <state width="1145" height="311" key="GridCell.Tab.0.center" timestamp="1576586182948">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1145" height="311" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1576586182948" />
+    <state width="1874" height="266" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1576538774585" />
+    <state width="1145" height="311" key="GridCell.Tab.0.left" timestamp="1576586182948">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1145" height="311" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1576586182948" />
+    <state width="1874" height="266" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1576538774584" />
+    <state width="1145" height="311" key="GridCell.Tab.0.right" timestamp="1576586182949">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1145" height="311" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1576586182949" />
+    <state width="1874" height="266" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1576538774585" />
+    <state x="438" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1576693814248">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="438" y="278" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1576693814248" />
+    <state x="1982" y="366" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1576530819395" />
+    <state x="145" y="247" width="1221" height="324" key="dock-window-1" timestamp="1576572296338">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="145" y="247" width="1221" height="324" key="dock-window-1/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1576572296338" />
+    <state x="145" y="112" width="1221" height="656" key="dock-window-1/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1576538709715" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -73,6 +218,11 @@
           <url>file://$PROJECT_DIR$/Annealing.h</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Matrix.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

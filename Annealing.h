@@ -23,7 +23,7 @@ public:
 
     void annealingInvert(vector<int>, double, double, double, int);
 
-    void annealingAcc(vector<int>, double, double, double, int);
+    void annealingAcc(vector<int>, double, double, double, int, int);
 
     void annealingAccAsym(vector<int>, double, double, double, int, int);
 
